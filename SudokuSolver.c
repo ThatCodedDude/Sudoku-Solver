@@ -33,15 +33,15 @@ int InputtedValues[MAX][MAX];
 
 int main(){
 
-    int Sudoku[9][9] = {{0, 0, 0, 0, 0, 0, 0, 8, 0}, // Input Sudoku Puzzle Here (Row By Row, Not by Column or Box)
-                        {7, 0, 0, 0, 0, 0, 0, 0, 0},
-                        {0, 1, 9, 7, 0, 3, 0, 2, 0},
-                        {0, 8, 0, 1, 0, 0, 0, 0, 4},
-                        {0, 0, 6, 0, 0, 4, 0, 0, 0},
-                        {4, 0, 0, 0, 0, 5, 3, 0, 0},
-                        {2, 4, 0, 9, 0, 0, 8, 0, 0},
-                        {6, 0, 0, 4, 0, 0, 1, 0, 5},
-                        {9, 0, 1, 6, 0, 0, 2, 0, 7}};
+    int Sudoku[9][9] = {{0, 0, 0, 0, 0, 0, 0, 0, 0}, // Input Sudoku Puzzle Here (Row By Row)
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0}, // Input Empty Cell as 0
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0}};
 
     GetInputtedValues(InputtedValues, Sudoku);
 
@@ -534,7 +534,7 @@ void PrintSudoku(int PrintSudoku[MAX][MAX]){
 
 }
 
-// Self-Made Wait Function for Testing
+// Self-Made Wait Function for Testing (Useless)
 
 void wait(float Seconds){
 
