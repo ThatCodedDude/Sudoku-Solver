@@ -1,7 +1,7 @@
 # Sudoku-Solver
 This is a Sudoku Solver I programmed in C! 
 
-This Project took me 8 days to complete, and im finally glad I can post it on Github!
+This project took me 8 days to complete, and im finally glad I can post it on Github!
 
 Youtube Video Link: 
 
